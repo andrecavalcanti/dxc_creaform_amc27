@@ -12,7 +12,7 @@ xmlport 50000 "DXC Create Txt File for HFM"
     {
         textelement(Root)
         {
-            tableelement("HFM Export Table";"HFM Export Table")
+            tableelement("HFM Export Table";"DXC HFM Export Table")
             {
                 XmlName = 'HFM_Export';
                 fieldelement(Year;"HFM Export Table".Year)

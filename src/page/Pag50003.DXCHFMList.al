@@ -6,7 +6,7 @@ page 50003 "DXC HFM List"
     //   New page created for HFM
 
     PageType = List;
-    SourceTable = "HFM Export Table";
+    SourceTable = "DXC HFM Export Table";
 
     layout
     {
@@ -45,11 +45,11 @@ page 50003 "DXC HFM List"
         {
             action("Update HFM Analysis Table")
             {
-                RunObject = Report "Analysis View HFM Table Data";
+                RunObject = Report "DXC Analysis View HFM Tb. Data";
             }
             action("Export HFM Analysis Data")
             {
-                RunObject = XMLport "Create Txt File for HFM";
+                RunObject = XMLport "DXC Create Txt File for HFM";
             }
         }
     }

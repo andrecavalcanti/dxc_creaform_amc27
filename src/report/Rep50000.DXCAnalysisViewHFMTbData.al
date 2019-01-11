@@ -98,7 +98,7 @@ report 50000 "DXC Analysis View HFM Tb. Data"
     end;
 
     var
-        recHFMTable : Record "HFM Export Table";
+        recHFMTable : Record "DXC HFM Export Table";
         intLine : Integer;
         txtFilter : Text[80];
         txtCopyDatefilter : Text[2];
@@ -106,7 +106,7 @@ report 50000 "DXC Analysis View HFM Tb. Data"
         TxtYear : Text[10];
         txtMonth : Text[2];
         GLAmt : Decimal;
-        CheckHFMTable_G : Record "HFM Export Table";
+        CheckHFMTable_G : Record "DXC HFM Export Table";
         GLAccount : Record "G/L Account";
         Text50000 : Label 'HFM processing completed.';
 }

@@ -1,0 +1,26 @@
+{
+  "id": "d444cacc-f4a5-4bea-8829-ab64e5fa31ae",
+  "name": "HFM Upload",
+  "publisher": "DXC",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50000,
+    "to": 50149
+  },
+  "showMyCode": true,
+  "breakonerror" : true,
+  "runtime": "1.0"
+}

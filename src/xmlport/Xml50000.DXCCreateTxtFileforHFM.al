@@ -29,11 +29,13 @@ xmlport 50000 "DXC Create Txt File for HFM"
                 }
                 fieldelement(Dimension2;"HFM Export Table"."Shortcut Dimension 2 Code")
                 {
+                    // >> AMC-103
                     trigger OnBeforePassField();
                     begin
                         IF "HFM Export Table"."Shortcut Dimension 2 Code" = '' then
                             "HFM Export Table"."Shortcut Dimension 2 Code" := 'XX';                            
                     end;
+                    // << AMC-103
                 }
                 fieldelement(Text;"HFM Export Table".Text)
                 {
